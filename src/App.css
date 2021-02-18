@@ -5,10 +5,3 @@
   font-weight: bold;
   margin: 0 auto;
 }
-
-.App-header{
-  .text-blur-out {
-	-webkit-animation: text-blur-out 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
-	        animation: text-blur-out 1.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
-}
-}
