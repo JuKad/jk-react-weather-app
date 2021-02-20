@@ -4,35 +4,37 @@
   padding: 16px;
   color: antiquewhite;
 }
-.Weather h1 {
+.Weather .h1 {
   padding: 10px;
   margin: 0;
   color: antiquewhite;
+  position: left;
 }
 
-.Weather input {
+.Weather .input {
   display: block;
   position: center;
-  list-style-type: none;
+  list-style: none;
   box-sizing: border-box;
   border-radius: 4px;
   margin: 0 auto;
 }
-.Weather row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-.Weather form {
-  margin-bottom: 30px;
-}
-.Weather ul {
-  margin: 0;
-  padding: 0;
-}
-.Weather li {
-  list-style-type: none;
+.Weather .ul {
+  list-style: none;
   display: block;
   text-align: left;
+}
+.Weather .li {
+  list-style: none;
+}
+.Weather .temperature {
+  font-weight: 3em;
+  font-size: 800;
+}
+.Weather .img {
+  glyph-orientation-horizontal: inherit;
+  margin-right: 10px;
+}
+.Weather .unit {
+  font-size: 500;
 }
