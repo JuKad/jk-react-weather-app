@@ -12,7 +12,7 @@ export default function App() {
         🌨 Weather App ☀
       </h1>
       <br />
-        <Weather />
+        <Weather defaultCity="Poprad"/>
       </div>
       <footer>
             This project was coded by Juliana Kadlecova and is {" "}
