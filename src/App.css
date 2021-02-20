@@ -1,22 +1,22 @@
 .App {
-  margin: 0 auto;
-  font-family: "Libre Baskerville", serif;
-  font-weight: bold;
-  max-width: 600;
-  color: antiquewhite;
-  line-height: 10vh;
+  font-weight: 1 rem;
 }
 .container {
-  border: thick double antiquewhite;
+  border: thick antiquewhite;
   text-align: center;
-}
-.input {
-  list-style-type: none;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .backgroundImage {
-  border-radius: 5em;
+  border-radius: 10em;
+  padding: 0;
 }
 .a {
   font-size: smaller;
-  color: bisque;
+  color: antiquewhite;
+}
+.footer {
+  font-style: italic;
+  display: block left;
+  margin: 10px 0;
 }

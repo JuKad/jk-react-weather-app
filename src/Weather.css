@@ -1,8 +1,38 @@
-.Weather h3 {
-  font-style: italic;
+.Weather {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 16px;
+  color: antiquewhite;
+}
+.Weather h1 {
+  padding: 10px;
+  margin: 0;
+  color: antiquewhite;
+}
+
+.Weather input {
+  display: block;
+  position: center;
+  list-style-type: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+.Weather row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.Weather form {
+  margin-bottom: 30px;
+}
+.Weather ul {
+  margin: 0;
+  padding: 0;
 }
 .Weather li {
   list-style-type: none;
-  text-decoration: underline;
-  text-align: center;
+  display: block;
+  text-align: left;
 }

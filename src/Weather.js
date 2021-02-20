@@ -8,15 +8,16 @@ export default function Weather(){
     <div className="Weather">
         <form>
             <div className="row">
-                <div className=".col-6">
-                    <input type="search" placeholder="Type a city.." className="form-control"/>
+                <div className="col-9">
+                    <input type="search" placeholder="Type a city.." className="form-control" autoFocus="on"/>
                 </div>
-                <div className=".col-6">
-                    <input type="submit" value="Search" className="btn btn-primary"/>
+                <div className="col-3">
+                    <input type="submit" value="Search" className="btn btn-primary w-100"/>
                 </div>
             </div>      
         </form> 
-         <h3> for Tallinn</h3>
+        <br />
+         <h3> Tallinn</h3>
          <ul>
              <li>Saturday 12:00</li>
              <li>Cloudy</li>

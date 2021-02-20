@@ -7,11 +7,14 @@ export default function App() {
     <div className="App">
       <div className="container">
         <div style={{backgroundImage: 'url("https://wallpapercave.com/wp/wp4782848.jpg")'}}>
+       <br />   
         <h1>
-         Weather App
+        🌨 Weather App ☀
       </h1>
+      <br />
         <Weather />
-          <footer>
+      </div>
+      <footer>
             This project was coded by Juliana Kadlecova and is {" "}
           <a 
           href="https://github.com/JuKad/jk-react-weather-app"
@@ -19,7 +22,6 @@ export default function App() {
           open-sourced on GibHub.
           </a>
           </footer>
-      </div>
       </div>
     </div>
   );
