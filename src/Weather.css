@@ -1,4 +1,7 @@
-.li {
+.Weather h3 {
+  font-style: italic;
+}
+.Weather li {
   list-style-type: none;
   text-decoration: underline;
   text-align: center;
