@@ -1,7 +1,22 @@
 .App {
-  text-align: center;
-  font-family: "Libre Baskerville", serif;
-  font-size: medium;
-  font-weight: bold;
   margin: 0 auto;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  max-width: 600;
+  color: antiquewhite;
+  line-height: 10vh;
+}
+.container {
+  border: thick double antiquewhite;
+  text-align: center;
+}
+.input {
+  list-style-type: none;
+}
+.backgroundImage {
+  border-radius: 5em;
+}
+.a {
+  font-size: smaller;
+  color: bisque;
 }
