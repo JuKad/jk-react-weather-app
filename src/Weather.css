@@ -31,8 +31,9 @@
   font-weight: 3em;
   font-size: 800;
 }
-.Weather .img {
+.Weather canvas {
   glyph-orientation-horizontal: inherit;
+  display: inline-block;
   margin-right: 10px;
 }
 .Weather .unit {
