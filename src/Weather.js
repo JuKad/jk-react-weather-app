@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import WeatherInfo from "./WeatherInfo";
 import "./WeatherInfo";
 import axios from "axios";
 import "./Weather.css";
@@ -6,8 +7,8 @@ import "./Weather.css";
 
 
 export default function Weather(props){
-    const [weatherData,setWeatherData] = useState({ready: false});
-    const[city,setCity] = useState(props.defaultCity);
+    const [weatherData, setWeatherData] = useState({ready: false});
+    const[city, setCity] = useState(props.defaultCity);
 
     function search(){
         const apiKey = "588044cb65d7bcb3a78e6ef765b7879a";
@@ -27,16 +28,15 @@ export default function Weather(props){
 
 
     function handleResponse(response){
-        console.log(response.data);
         setWeatherData({
             ready: true,
             temperature: response.data.main.temp,
             humidity: response.data.main.humidity,
             date: new Date(response.data.dt * 1000),
             description: response.data.weather[0].description,
-            iconUrl: "http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png",
+            icon: response.data.weather[0].icon,
             wind: response.data.wind.speed,
-            city: response.data.name
+            city: response.data.name,
         });
        
     }
@@ -70,6 +70,6 @@ export default function Weather(props){
             );
         } else {
             search();
-            return "Loading.."
+            return "Loading..";
         }
     }
